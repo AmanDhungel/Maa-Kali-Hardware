@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maa kali Hardware</title>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+
+  <body>
+    <section id="header">
+      <a href=""><img src="img/logo.png" class="logo" alt="" /></a>
+
+      <nav class="navbar">
+        <div>
+        <a id="logo" href="index.html"><img src="img/MAA KALI Hardware-withoutback.png" alt="" /></a>
+       </div>
+        <a href="../index.html" class="navbar-item" id="nav1">Home</a>
+        <a href="../aboutus.html" class="navbar-item" id="nav2">About</a>
+        <a href="../Contactus.html" class="navbar-item" id="nav3">Contact</a>
+        <a href="../shop.html" class="navbar-item" id="nav4">Shop</a>
+      </nav>
+    </section>
+
+    <section id="prodetails" class="section-p1">
+      <div class="single-pro-image">
+        <img src="../img/services/interiordesign.jpg" width="100%" id="MainImg" alt="" />
+        <div class="small-img-group">
+          <div class="small-img-col">
+            <img src="../img/services/interiordesign.jpg" width="100%" class="small-img" alt="" />
+          </div>
+          <div class="small-img-col">
+            <img src="../img/services/interiordesign1.jpg" width="100%" class="small-img" alt="" />
+          </div>
+          <div class="small-img-col">
+            <img src="../img/services/interiordesign2.jpg" width="100%" class="small-img" alt="" />
+          </div>
+          <div class="small-img-col">
+            <img src="../img/services/interiordesign3.jpg" width="100%" class="small-img" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div class="single-pro-details">
+        <h4>Interior Design</h4>
+        <br />
+        <a href="contactus.html"> <button>Contact us</button></a>
+        <h4> Description</h4>
+        <span
+          >Interior design is the art and science of enhancing the interior of a building to achieve a healthier and more aesthetically pleasing environment for the people using the space. An interior designer is someone who plans, researches, coordinates, and manages such enhancement projects </span>
+        <br>
+        <br>
+          <h5>Types of Interior design</h5>
+          <ul>
+            <li>Nautical Interior Designing Style</li>
+            <li>Contemporary Interior Design style</li>
+            <li>Traditional interior designing Style</li>
+            <li>Modern style of interior design</li>
+            <li>Industrial interior design style</li>
+            <li>Minimalist interior design style</li>
+            <li>Mediterranean Interior design style</li>
+            <li>Mid century modern interior designing style</li>
+          </ul>
+          <br>
+          <br>
+          <h5>Features of Interior Design</h5>
+          <ul>
+            <li> Environmentally-Friendly</li>
+            <li>Natural Materials and Elements</li>
+            <li>Open and Natural Lighting</li>
+            <li>Neutral Walls and Textures</li>
+            <li>Simple, Clean Lines and Simplistic Furniture</li>
+            <li>Practicality and Functionality</li>
+          </ul>
+          <br>
+          <br>
+          <h5>Price of Interior Design Per Project</h5>
+          <span>Gypsum board false ceiling rates vary from Rs. 60 per sqft to Rs. 120 per sqft depending on the design, materials you choose etc., </span>
+      </div>
+    </section>
+
+
+    <section id="newsletter">
+      <div class="newstext">
+        <h3>Sign Up For Newsletter</h3>
+        <p>
+          Get E-mail updates about our latest shop and
+          <span> special offer</span>
+        </p>
+      </div>
+      <div class="texts">
+        <input type="text" placeholder="Your email address" />
+        <button>Sign Up</button>
+      </div>
+    </section>
+
+    <footer>
+      <div id="first">
+        <img src="../img/national home decor.png" alt="" />
+        <h3>Contact:</h3>
+        <span> Address:</span>
+        nicosera street, Bhaktapur, Radhe radhe <br />
+        <span>Phone:</span>
+        9851081637, 9841227822 <br />
+        <span>Hours:</span>
+        07:00 - 5:30 Sun-Sat <br />
+
+        <h4 style="margin-top: 10px">Follow Us</h4>
+        <a href="https://www.facebook.com/aman.dhungel.5/" target="_blank">
+          <i class="fa fa-facebook-f"></i
+        ></a>
+        <a href="https://www.instagram.com/dhungelaman/" target="_blank">
+          <i class="fa fa-instagram"></i
+        ></a>
+        <a href="https://twitter.com/DhungelAman" target="_blank">
+          <i class="fa fa-twitter"></i
+        ></a>
+      </div>
+
+      <div id="second">
+        <h3>About</h3>
+        <a href="../index.html">Home</a>
+        <a href="../services/contactus.html">Contact us</a>
+        <a href="../shop.html">Shop</a>
+        <a href="../aboutus.html">About us</a>
+      </div>
+      <div id="third">
+        <h3>Imp Links</h3>
+        <a href="../policy.html">Our Policy</a>
+        <a href="../deliverypolicy.html">Delivery Information</a>
+        <a href="../payment.html">Payment Details</a>
+
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+<script>
+  // script for image change on click
+  var MainImg = document.getElementById("MainImg");
+  var smallimg = document.getElementsByClassName("small-img");
+
+  smallimg[0].onclick = function(){
+    MainImg.src = smallimg[0].src;
+  }
+
+  smallimg[1].onclick = function(){
+    MainImg.src = smallimg[1].src;
+  }
+
+  smallimg[2].onclick = function(){
+    MainImg.src = smallimg[2].src;
+  }
+
+  smallimg[3].onclick = function(){
+    MainImg.src = smallimg[3].src;
+  }
+
+</script>
+</body>
+</html>

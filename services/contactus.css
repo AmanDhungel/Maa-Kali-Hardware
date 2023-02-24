@@ -1,0 +1,161 @@
+.left-bar {
+  background-color: -#cf9393;
+  display: flow-root;
+  height: 100vh;
+  position: fixed;
+  width: 100%;
+}
+
+#navbar img {
+  width: 50px;
+}
+
+#navigation {
+  margin-top: 20px;
+}
+
+#navbar a {
+  margin: 20px;
+  text-decoration: none;
+  color: cadetblue;
+  font-size: 25px;
+}
+
+#sec-second {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#sec-input {
+  margin-top: 50px;
+  width: 920px;
+}
+
+#sec-input input {
+  width: 440px;
+  border-radius: 4px;
+  height: 30px;
+  background-color: beige;
+  border: none;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+#sec-input textarea {
+  width: 895px;
+  height: 100px;
+  background-color: beige;
+  border: none;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+#sec-input button {
+  margin-top: 10px;
+  width: 905px;
+  height: 30px;
+  border: none;
+  border-radius: 4px;
+  background-color: cadetblue;
+  cursor: pointer;
+}
+
+#third-con h2 {
+  text-decoration: underline;
+  color: white;
+}
+
+#third-con img {
+  width: 50px;
+}
+
+@media only screen and (min-width: 1080px) {
+  #navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    padding: 5px;
+  }
+
+  iframe {
+    width: 900px;
+    height: 250px;
+  }
+
+  #third-con {
+    background-color: #cf9393;
+    margin-top: 50px;
+    border: 1px solid;
+    width: 500px;
+  }
+}
+
+@media only screen and (max-width: 799px) {
+  #navbar {
+    display: flex;
+    background-color: antiquewhite;
+    padding: 5px;
+    width: 370px;
+    flex-wrap: nowrap;
+  }
+
+  #navigation {
+    margin-left: 70px;
+  }
+
+  #navbar a {
+    font-size: 15px;
+    margin-left: -10px;
+  }
+
+  #navbar img {
+    width: 35px;
+  }
+
+  iframe {
+    width: 330px;
+    height: 200px;
+  }
+  #sec-input {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #third-con {
+    background-color: #cf9393;
+    margin-top: 50px;
+    border: 1px solid;
+    width: 300px;
+  }
+
+  #sec-input input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
+  }
+
+  #sec-input textarea {
+    width: 320px;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #sec-input button {
+    width: 330px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  body {
+    margin-left: -5px;
+  }
+}
